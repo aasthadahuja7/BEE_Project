@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Student</title>
+</head>
+
+<body>
+    <h1>all student data</h1>
+
+    <script>
+        document.getElementsByTagName("h1")[0].innerHTML = "Aastha";
+        fetch("http://localhost:3000")
+            .then((responce) => { return responce.json() })
+            .then((data) => {
+                console.log(data);
+
+                const table = document.createElement('table');
+                const tableBody = document.createElement('tbody');
+
+                data.forEach(person => {
+                    const row = document.createElement('tr');
+                    const nameCell = document.createElement('td');
+                    const emailCell = document.createElement('td');
+                    const groupCell = document.createElement('td');
+                    const rollNumberCell = document.createElement('td');
+                    const contactNumberCell = document.createElement('td');
+                    const feedbackCell = document.createElement('td');
+
+                    nameCell.textContent = person.name;
+                    emailCell.textContent = person.email;
+                    groupCell.textContent = person.group;
+                    rollNumberCell.textContent = person.rollNumber;
+                    contactNumberCell.textContent = person.contactNumber;
+                    feedbackCell.textContent =person.feedback;
+
+                    row.appendChild(nameCell);
+                    row.appendChild(emailCell);
+                    row.appendChild(groupCell);
+                    row.appendChild(rollNumberCell);
+                    row.appendChild(contactNumberCell);
+                    row.appendChild(feedbackCell);
+                    tableBody.appendChild(row);
+                });
+
+                table.appendChild(tableBody);
+                document.body.appendChild(table);
+            })
+    </script>
+</body>
+</html>

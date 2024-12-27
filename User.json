@@ -1,0 +1,101 @@
+[
+    {
+        "name": "vishal",
+        "email": "vishal@gmail.com"
+    },
+    {
+        "name": "amit",
+        "email": "amit@gmail.com"
+    },
+    {
+        "name": "sudeep",
+        "email": "s@gmail.com"
+    },
+    {
+        "name": "sudeep ja",
+        "email": "s@gmail.com"
+    },
+    {
+        "name": "raghav",
+        "email": "raghva@gmail.com"
+    },
+    {
+        "name": "satyam",
+        "email": "satyam@gmail.com"
+    },
+    {
+        "name": "ABC",
+        "email": "ABC@test.com"
+    },
+    {
+        "name": "Aastha",
+        "email": "aasthadahuja11@gmail.com"
+    },
+    {
+        "name": "Aastha",
+        "email": "aasthadahuja11@gmail.com"
+    },
+    {
+        "name": "sgdkh",
+        "group": "G1",
+        "email": "jhs@gmail.com",
+        "rollNumber": "hsjk",
+        "contactNumber": "ksjk",
+        "q1": "Average",
+        "q2": "Average",
+        "q3": "Dissatisfied",
+        "q4": "Good",
+        "q5": "Likely",
+        "q6": "Excellent",
+        "q7": "Ineffective",
+        "q8": "Good",
+        "q9": "Good",
+        "comments": "djn"
+    },
+    {
+        "name": "hgwfkh",
+        "group": "G6",
+        "email": "diya@gmail.com",
+        "rollNumber": "ws",
+        "contactNumber": "9689",
+        "q1": "Poor",
+        "q2": "Good",
+        "q3": "Very Satisfied",
+        "q4": "Average",
+        "q5": "Unlikely",
+        "q6": "Average",
+        "q7": "Very Effective",
+        "q8": "Good",
+        "q9": "Average",
+        "comments": ""
+    },
+    {
+        "name": "hgwfkh",
+        "group": "G6",
+        "email": "diya@gmail.com",
+        "rollNumber": "ws",
+        "contactNumber": "9689",
+        "q1": "Poor",
+        "q2": "Good",
+        "q3": "Very Satisfied",
+        "q4": "Average",
+        "q5": "Unlikely",
+        "q6": "Average",
+        "q7": "Very Effective",
+        "q8": "Good",
+        "q9": "Average",
+        "comments": ""
+    },
+    {
+        "name": "sgdkh",
+        "group": "G4",
+        "email": "aasthadahuja11@gmail.com",
+        "rollNumber": "hsjk",
+        "contactNumber": "07696430058",
+        "q1": "Good",
+        "q2": "Average",
+        "q3": "Satisfied",
+        "q4": "Good",
+        "q5": "Very Likely"
+    }
+]
